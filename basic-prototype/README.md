@@ -58,9 +58,9 @@ type Blockchain struct {
 }
 ```
 
-우리의 첫 블록체인이 완성되었습니다! 참 쉽죠?
+우리의 첫 블록체인이 완성되었다! 아주 쉽다.
 
-이제 블록 추가 기능을 만들어봅시다.
+이제 블록 추가 기능을 만들어보자.
 
 ```go
 func (bc *BlockChain) AddBlock(data string) {
