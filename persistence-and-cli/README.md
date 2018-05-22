@@ -134,6 +134,7 @@ func NewBlockchain() *Blockchain {
                 }
                 return nil
         })
+
         bc := Blockchain{tip, db}
         return &bc
 }
