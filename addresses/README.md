@@ -542,7 +542,7 @@ Balance of '1NE86r4Esjf53EL7fR86CsfTZpNN42Sfab': 6
 
 문제없이 잘 동작한다!
 
-서명되지 않은 트랜잭션은 채굴할 수 없음을 확인해보기 위해 **NewUTXOTransaction**에서 **bc.SignTransaction(&tx, wallet.PrivateKey)** 호출을 주석처리 해보자.
+서명되지 않은 트랜잭션은 채굴할 수 없음을 확인해보기 위해 **NewUTXOTransaction**에서 **bc.SignTransaction(&tx, wallet.PrivateKey)** 호출을 주석 처리 해보자.
 
 ```go
 func NewUTXOTransaction(from, to string, amount int, bc *Blockchain) *Transaction {
