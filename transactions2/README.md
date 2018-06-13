@@ -438,19 +438,12 @@ func (b *Block) HashTransactions() []byte {
 따라서 출력은 로직 해제를 정의하고 입력은 출력 해제를 위한 데이터를 제공하는 것이다. 스크립트를 실행해보자.
 
 1. 스택: 비어있음. 스크립트: **&lt;signature&gt; &lt;pubKey&gt; OP_DUP OP_HASH160 &lt;pubKeyHash&gt; OP_EQUALVERIFY OP_CHECKSIG**.
-
 2. 스택: **&lt;signature>**. 스크립트: **&lt;pubKey&gt; OP_DUP OP_HASH160 &lt;pubKeyHash&gt; OP_EQUALVERIFY OP_CHECKSIG**.
-
 3. 스택: **&lt;signature&gt; &lt;pubKey&gt;**. 스크립트: **OP_DUP OP_HASH160 &lt;pubKeyHash&gt; OP_EQUALVERIFY OP_CHECKSIG**.
-
 4. 스택: **&lt;signature&gt; &lt;pubKey&gt; &lt;pubKey&gt;**. 스크립트: **OP_HASH160 &lt;pubKeyHash&gt; OP_EQUALVERIFY OP_CHECKSIG**.
-
 5. 스택: **&lt;signature&gt; &lt;pubKey&gt; &lt;pubKeyHash&gt;**. 스크립트: **&lt;pubKeyHash&gt; OP_EQUALVERIFY OP_CHECKSIG**.
-
 6. 스택: **&lt;signature&gt; &lt;pubKey&gt; &lt;pubKeyHash&gt; &lt;pubKeyHash&gt;**. 스크립트: **OP_EQUALVERIFY OP_CHECKSIG**.
-
 7. 스택: **&lt;signature&gt; &lt;pubKey&gt;**. 스크립트: **OP_CHECKSIG**.
-
 8. 스택: **true** 또는 **false**. 스크립트: 비어있음.
 
 **OP_DUP**은 최상위 스택 원소를 복제한다. **OP_HASH160**은 최상위 스택 원소를 가져와 **RIPEMD160**으로 해싱한다. 해싱 결과는 스택에 저장된다. **OP_EQUALVERIFY**는 스택의 두 최상위 원소를 비교하며, 만약 같지 않으면 스크립트에 인터럽트를 건다. **OP_CHECKSIG**는 트랜잭션을 해싱하고 **&lt;signature&gt;**와 **&lt;pubKey&gt;**를 사용해 트랜잭션의 서명을 검증한다. 마지막 연산자는 아주 복잡한데, 이는 트랜잭션의 잘려진 복사본을 만들어 해싱한 뒤 (이 해시가 서명된 트랜잭션의 해시이므로), **&lt;signature&gt;**와 **&lt;pubKey&gt;**를 사용해 서명이 올바른지 검사한다.
