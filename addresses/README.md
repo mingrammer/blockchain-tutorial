@@ -455,7 +455,7 @@ func (bc *Blockchain) FindTransaction(ID []byte) (Transaction, error) {
                         }
 
                         if (block.PrevBlockHash) == 0 {
-                            break
+                                break
                         }
                 }
         }
