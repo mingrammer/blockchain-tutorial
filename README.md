@@ -1,5 +1,7 @@
 # Go로 구현하는 블록체인 튜토리얼
 
+> Go 블록체인 구현체 저장소: https://github.com/Jeiwan/blockchain_go
+
 [Building Blockchain in Go](https://jeiwan.cc/posts/building-blockchain-in-go-part-1/) 시리즈의 한국어 번역본입니다.
 
 * [Part 1: 기본 프로토타입](/basic-protytpe)
