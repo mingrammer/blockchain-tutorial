@@ -4,7 +4,7 @@
 
 [Building Blockchain in Go](https://jeiwan.cc/posts/building-blockchain-in-go-part-1/) 시리즈의 한국어 번역본입니다.
 
-* [Part 1: 기본 프로토타입](/basic-protytpe)
+* [Part 1: 기본 프로토타입](/basic-prototype)
 * [Part 2: 작업 증명](/proof-of-work)
 * [Part 3: 영속성 및 CLI](/persistence-and-cli)
 * [Part 4: 트랜잭션 1](/transactions1)
