@@ -93,7 +93,7 @@ func DeserializeBlock(d []byte) *Block {
         decoder := gob.NewDecoder(bytes.NewReader(d))
         err := decoder.Decode(&block)
 
-        return *blcok
+        return *block
 }
 ```
 
