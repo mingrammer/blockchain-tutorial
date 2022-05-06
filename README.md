@@ -2,7 +2,7 @@
 
 > Go 블록체인 구현체 저장소: https://github.com/Jeiwan/blockchain_go
 
-[Building Blockchain in Go](https://jeiwan.cc/posts/building-blockchain-in-go-part-1/) 시리즈의 한국어 번역본입니다.
+[Building Blockchain in Go](https://jeiwan.net/posts/building-blockchain-in-go-part-1/) 시리즈의 한국어 번역본입니다.
 
 * [Part 1: 기본 프로토타입](/basic-prototype)
 * [Part 2: 작업 증명](/proof-of-work)
@@ -14,13 +14,13 @@
 
 각 단계별 원문은 다음 링크에서 보실 수 있습니다.
 
-* [Part 1: Basic Prototype](https://jeiwan.cc/posts/building-blockchain-in-go-part-1/)
-* [Part 2: Proof of Work](https://jeiwan.cc/posts/building-blockchain-in-go-part-2/)
-* [Part 3: Persistence and CLI](https://jeiwan.cc/posts/building-blockchain-in-go-part-3/)
-* [Part 4: Transactions 1](https://jeiwan.cc/posts/building-blockchain-in-go-part-4/)
-* [Part 5: Addresses](https://jeiwan.cc/posts/building-blockchain-in-go-part-5/)
-* [Part 6: Transactions 2](https://jeiwan.cc/posts/building-blockchain-in-go-part-6/)
-* [Part 7: Network](https://jeiwan.cc/posts/building-blockchain-in-go-part-7/)
+* [Part 1: Basic Prototype](https://jeiwan.net/posts/building-blockchain-in-go-part-1/)
+* [Part 2: Proof of Work](https://jeiwan.net/posts/building-blockchain-in-go-part-2/)
+* [Part 3: Persistence and CLI](https://jeiwan.net/posts/building-blockchain-in-go-part-3/)
+* [Part 4: Transactions 1](https://jeiwan.net/posts/building-blockchain-in-go-part-4/)
+* [Part 5: Addresses](https://jeiwan.net/posts/building-blockchain-in-go-part-5/)
+* [Part 6: Transactions 2](https://jeiwan.net/posts/building-blockchain-in-go-part-6/)
+* [Part 7: Network](https://jeiwan.net/posts/building-blockchain-in-go-part-7/)
 
 ## Contribution
 
